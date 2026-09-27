@@ -23,6 +23,23 @@ Year	Qualifying months
 2023	2
 Total	14
 
+## Visualisations
+
+### 1. UK Real GVA Growth (2023–2026)
+
+![UK Real GVA Growth](figures/gva_growth.png)
+
+Three-month rolling average of monthly real GVA growth,
+calculated in PostgreSQL using ONS data.
+
+### 2. UK Economic Pressure
+
+![UK Economic Pressure](figures/economic_pressure.png)
+
+Number of months in each year when CPI inflation exceeded
+2%, reported unemployment increased and annual real GVA
+growth was negative.
+  
 
 Only years containing qualifying months are shown. This is a descriptive classification defined for this project, not an official recession indicator or evidence of causation.
 [View the SQL](scripts/05_economic_pressure.sql) · [Download the query results](results/economic_pressure_results.csv)
